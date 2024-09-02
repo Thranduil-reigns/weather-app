@@ -12,15 +12,15 @@
 <body>
     <div class="weather-app">
         <header>
-            <form class="search-form">
-                <input type="search" placeholder="Enter a City" required class="search-form-input">
+            <form class="search-form" id="search-form">
+                <input type="search" placeholder="Enter a City" id="search-form-input" required class="search-form-input">
                 <input type="submit" value="Search" class="search-form-button">
             </form>
         </header>
         <main>
             <div class="weather-container">
                 <div>
-                    <h1>Paris</h1>
+                    <h1 class="app-city"id="city">Paris</h1>
                     <p>
                         Tuesday 14:49 , scattered clouds
                         <br/>
@@ -38,5 +38,6 @@
         <footer>This project was coded by 
         <a href="https://github.com/Thranduil-reigns">Nicole Namayi</a> , code hosted on<a href="https://github.com/Thranduil-reigns/weather-app"> Github</a> and website hosted by <a href ="https://nicoleapp.netlify.app/">Netlify</a></footer>
     </div>
+    <script src="index.js"></script>
 </body>
 </html>

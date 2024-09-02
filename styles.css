@@ -48,7 +48,7 @@ a{
 main{
     padding: 30px;
 }
-h1{
+.app-city{
     margin:0;
     font-size: 38px;
     line-height: 48px;
@@ -58,7 +58,7 @@ p{
     line-height: 24px;
     color: blue;
 }
-h1 strong{
+.app-city strong{
     color:#f65282;
 }
 .temperature-container{
