@@ -68,10 +68,11 @@ p{
     font-size: 88px;
     font-weight: bold;
     margin-left: 10px;
+    line-height: 88px;
 }
 .emoji{
-    font-size: 45px;
-    margin-top: 22px;
+    width:90px;
+    height:90px;
 
 }
 .degree{
