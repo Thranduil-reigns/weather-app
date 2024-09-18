@@ -55,3 +55,26 @@ function formatDate(date) {
   searchFormElement.addEventListener("submit", handleSearchSubmit);
   
   searchCity("Paris");
+
+  function displayForecast() {
+    let days = ["Tue", "Wed", "Thu", "Fri", "Sat"];
+    let forecastHtml = "";
+  
+    days.forEach(function (day) {
+      forecastHtml =
+        forecastHtml +
+                    `<div class="day">
+                    <div class="weather-forecast-date">${day}</div>
+                    <div class="icon">🌥️</div>
+                    <div class="forecast-temperatures">
+                        <div class="forecast-temperature"><strong>15°C</strong></div>
+                        <div class="forecast-temperature">9°C</div> 
+                    </div>
+                    </div>
+                    `;
+                  });
+
+                  let forecastElement = document.querySelector("#forecast");
+                  forecastElement.innerHTML = forecastHtml;
+                }
+                displayForecast();
